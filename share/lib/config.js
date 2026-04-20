@@ -640,9 +640,12 @@ const COLUMN_INDEX = {
     init() {
       let localConfig = copy(CONFIG_DEFAULT)
       this.config = localConfig
-      let lang = (navigator.language || '').split('-')[0]
-      if(['ko', 'en', 'ja', 'de'].indexOf(lang) !== -1){
-        this.set('lang', lang)
+      let navLang = navigator.language || ''
+      let lang = navLang.toLowerCase()
+      if(lang === 'zh-tw' || lang === 'zh-hk' || lang === 'zh-hant') {
+        this.set('lang', 'zh-tw')
+      } else if(['ko', 'en', 'ja', 'de'].indexOf(navLang.split('-')[0]) !== -1) {
+        this.set('lang', navLang.split('-')[0])
       }
       this.save()
     }

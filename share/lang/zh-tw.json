@@ -1,0 +1,334 @@
+{
+  "general": {
+    "left": "左",
+    "center": "中",
+    "right": "右"
+  },
+  "ui": {
+    "header": {
+      "in-develop": "開發中/不穩定",
+      "waiting-data": "等待戰鬥",
+      "no-data-yet": "還沒有資料",
+      "please-do-combat": "請先開始戰鬥"
+    },
+    "menu": {
+      "merge-pet-on": "開啟寵物合併",
+      "merge-pet-off": "關閉寵物合併",
+      "nameblur-on": "模糊名字",
+      "nameblur-off": "取消模糊名字",
+      "end-encounter": "分離計數器",
+      "settings": "設定",
+      "reload": "重新載入",
+      "fullscreen": "切換全螢幕",
+      "screenshot": "截圖",
+      "donate": "贊助"
+    },
+    "config": {
+      "_": "設定",
+      "save": "儲存",
+      "execute": "執行",
+      "dialog": {
+        "really": "確定初始化設定？",
+        "apply": "套用設定？",
+        "undone": "此操作無法復原！",
+        "yes": "是",
+        "no": "否",
+        "manual-reload": {
+          "title": "無法重新載入！",
+          "content": "請手動重新載入。"
+        }
+      },
+      "general": {
+        "_": "一般",
+        "combine_pet": "寵物合併",
+        "split-by-comma": "以半形逗號 ',' 分隔多個名字",
+        "basic": "基本",
+        "footer-visibility": {
+          "_": "頁尾",
+          "show": "顯示",
+          "use-header-instead": "在頂部顯示",
+          "hide": "不顯示"
+        },
+        "footer": {
+          "_": "頁尾元素",
+          "rank": "我的排名",
+          "rdps": "總體 DPS",
+          "rhps": "總體 HPS",
+          "recover": "總治療獲得/傷害承受 🔄"
+        },
+        "reset": "重設",
+        "reset-this": "全部重設"
+      },
+      "style": {
+        "_": "樣式",
+        "reset-this": "重設樣式",
+        "css-help": [
+          "使用 CSS 值，可由其他帶分號的標籤擴展",
+          "使用半透明顏色：<code>rgba(Red, Green, Blue, Alpha)</code>. <br /> Alpha 範圍為 0 到 1。",
+          "使用圖片背景：<code>url('圖片網址')</code>"
+        ],
+        "image": {
+          "_": "背景圖片",
+          "help": "背景圖片優先級高於背景顏色，半透明像素除外。圖片網址格式為 <code>url('圖片URL')</code>。",
+          "color": "填充",
+          "image": "圖片",
+          "opacity": "透明度",
+          "filter": "CSS 濾鏡（進階）",
+          "default": "預設："
+        },
+        "layout": "版面配置",
+        "background": "背景",
+        "foreground": "前景",
+        "width-applied-only": "只適用於每列儲存格數不為 1 的情形。",
+        "element": {
+          "nav": "導覽列",
+          "dropdown": "下拉選單",
+          "my-row": "自己的資料",
+          "header": "表頭",
+          "table": "表格",
+          "cell": "儲存格"
+        },
+        "shadow": "陰影"
+      },
+      "color": {
+        "_": "量條顏色",
+        "reset-this": "重設顏色",
+        "etc": "其他",
+        "pet-buddy": "寵物/夥伴"
+      },
+      "width": {
+        "_": "欄寬",
+        "reset-this": "重設欄寬",
+        "css-help": [
+          "預設為 16px，且會隨 UI 縮放而改變。",
+          "視窗寬度縮小時「名字」欄會優先被縮短。"
+        ]
+      },
+      "tab": {
+        "_": "標籤",
+        "title": "標題",
+        "width": "每列儲存格數",
+        "sortby": "排序方式",
+        "available": "可用資料欄",
+        "configured": "顯示資料欄",
+        "widths": [ 0, 1, 2, 3 ]
+      },
+      "i/e": {
+        "_": "匯入/匯出",
+        "import": "匯入",
+        "export": "匯出",
+        "copy-this": "複製以下所有內容：",
+        "paste-here": "貼上取得的內容：",
+        "save-first": "請先儲存！！",
+        "export-help": "某些值以及與預設值相同的值將不會被匯出。",
+        "config-to-export": "設定匯出",
+        "all": "全部",
+        "data-fault": "資料不正確或已損壞。",
+        "content-count": "欄數",
+        "open-prompt": "開啟提示"
+      },
+      "etc": {
+        "_": "更多",
+        "others": {
+          "_": "其他",
+          "skill-aliases-help": "對過長的技能名使用縮寫，例如「鼓舞激勵之策」。",
+          "filter": "篩選器",
+          "filter-help": [
+            "FF14 插件無法區分敵我，所以這些選項將盡量不將敵人顯示出來。",
+            "如果出現任何錯誤，請停用以下所有選項。"
+          ],
+          "unusual-spaces": "不是寵物名字卻包含空格",
+          "jobless": "職業為空",
+          "not-combatant": "不是戰鬥精英或魔法導師"
+        },
+        "css": "CSS"
+      },
+      "info": {
+        "_": "關於",
+        "created-by": "作者：",
+        "servers": "Rhamu @ Elemental / Carbuncle @ KR / Chocobo @ KR",
+        "hibiya": "hibiya inemuri / kuriyama hibiya",
+        "support": "支援",
+        "license": "授權條款",
+        "icon-files": "所有檔案都在 share/img/class 目錄下，",
+        "privacy": {
+          "_": "隱私權政策",
+          "list": [
+            "如果操作本程式時出現錯誤，<br />用於定位問題的資訊將會傳送到伺服器。",
+            "僅會在最低限度下收集用於診斷問題的資訊：",
+            "* 程式版本<br />* 最後戰鬥資料<br />* 其他由 ravenjs 收集的資料"
+          ]
+        }
+      }
+    }
+  },
+  "config": {
+    "style": {
+      "_": "樣式",
+      "resize-factor": "UI 縮放",
+      "body-margin": "透明外邊框寬度",
+      "body-font": "字型",
+      "nav-opacity": "失焦時導覽列透明度",
+      "accent-color": "強調色",
+      "shadow-card": "視窗",
+      "shadow-text": "文字",
+      "content-align": "文字對齊",
+      "font-size-small": "小字字號",
+      "gauge-height": "量條高度",
+      "graph-height": "表格列高"
+    },
+    "color": {
+      "_": "量條顏色",
+      "gauge-default": "預設",
+      "gauge-opacity": "透明度",
+      "position-tank": "坦克",
+      "position-deal": "輸出",
+      "position-heal": "治療",
+      "pld": "騎士(劍術師)",
+      "war": "戰士(斧術師)",
+      "drk": "暗黑騎士",
+      "gnb": "絕槍戰士",
+      "mnk": "武僧(格鬥家)",
+      "drg": "龍騎士(槍術師)",
+      "brd": "吟遊詩人(弓箭手)",
+      "nin": "忍者(雙劍士)",
+      "smn": "召喚師(秘術師)",
+      "blm": "黑魔法師(咒術師)",
+      "mch": "機工士",
+      "sam": "武士",
+      "rpr": "鐮刀師",
+      "rdm": "赤魔法師",
+      "vpr": "蝮蛇劍士",
+      "pct": "繪靈法師",
+      "blu": "青魔法師",
+      "dnc": "舞者",
+      "whm": "白魔法師(幻術師)",
+      "sch": "學者",
+      "ast": "占星術士",
+      "sge": "賢者",
+      "smn-pet": "召喚師(秘術師)寶石獸",
+      "sch-pet": "學者小仙女",
+      "mch-pet": "機工士炮台",
+      "chocobo": "陸行鳥",
+      "limit-break": "極限技"
+    },
+    "format": {
+      "language": "Language",
+      "significant_digit": {
+        "_": "小數點精度",
+        "dps": "DPS",
+        "damage": "Damage",
+        "hps": "HPS",
+        "accuracy": "命中率",
+        "critical": "傷害與治療百分比"
+      },
+      "thousands_separator": {
+        "_": "Thousands separator",
+        "none": "None",
+        "period": "Period (.)",
+        "comma": "Comma (,)",
+        "space": "Space"
+      },
+      "myname": "自己的名字",
+      "use_short_name": "玩家名字顯示方式",
+      "use_skill_aliases": "使用技能名縮寫",
+      "numbers": "數字格式",
+      "use_tailing_pct": "在百分比數值後顯示百分號",
+      "small_lower_numbers": "小於 1000 的數字以小字體顯示",
+      "number_abbreviation": "省略以 1000 為單位的數字"
+    },
+    "element": {
+      "narrow_nav": "*Narrower Top navigation bar"
+    }
+  },
+  "col": {
+    "i": {
+      "_": "資訊",
+      "icon": [" ", "職業圖示"],
+      "rank": ["#", "Rank"],
+      "class": ["職業", "職業/特職"],
+      "owner": ["主人", "所有者"],
+      "name": ["名字", "名字"]
+    },
+    "deal": {
+      "_": "輸出",
+      "per_second": ["DPS", "每秒輸出"],
+      "pct": ["D%", "百分比%"],
+      "total": ["總輸出", "總傷害"],
+      "failure": ["失誤%", "失誤率"],
+      "accuracy": ["命中%", "命中率"],
+      "swing": ["次數", "攻擊次數"],
+      "miss": ["Miss", "未命中次數"],
+      "hitfail": ["HitFail", "Hitfail 次數"],
+      "critical": ["暴%", "爆擊率%"],
+      "direct": ["直%", "直擊率%"],
+      "crit_direct": ["直暴!!", "直擊爆擊率%(!!!)"],
+      "crittypes": ["直/暴/直暴", "直擊/爆擊/直爆次數"],
+      "critpcts": ["直/暴/直暴", "直擊率/爆擊率/直爆率%"],
+      "max": ["最高傷害", "最高傷害（無技能名）"],
+      "maxskill": ["最高傷害", "最高傷害（僅技能名）"],
+      "maxhit": ["最高傷害", "最高傷害含技能名"],
+      "last10": ["10s", "10 秒內 DPS"],
+      "last30": ["30s", "30 秒內 DPS"],
+      "last60": ["1m", "1 分鐘內 DPS"],
+      "last180": ["3m", "3 分鐘內 DPS（測試）"]
+    },
+    "tank": {
+      "_": "坦克",
+      "damage": ["承傷", "承受傷害量"],
+      "heal": ["被治療", "收到的治療量"],
+      "parry": ["架擋%", "架擋率"],
+      "block": ["格擋%", "格擋率"],
+      "threat_delta": ["∆仇恨", "三角仇恨"]
+    },
+    "heal": {
+      "_": "治療",
+      "per_second": ["HPS", "每秒治療量"],
+      "pct": ["H%", "治療比率%"],
+      "total": ["總治療", "總治療量"],
+      "over": ["過量%", "過量治療"],
+      "swing": ["次數", "治療次數"],
+      "critical": ["H暴%", "治療爆擊率%"],
+      "cure": ["驅散", "減益效果驅散次數"],
+      "max": ["最高治療", "最高治療（無技能名）"],
+      "maxskill": ["最高治療", "最高治療（僅技能名）"],
+      "maxhit": ["最高治療", "最高治療含技能名"]
+    },
+    "etc": {
+      "_": "其他",
+      "powerdrain": ["被吸藍", "魔力被吸收量"],
+      "powerheal": ["回藍", "魔力吸收量"],
+      "death": ["死", "死亡次數"]
+    }
+  },
+  "zone": {
+    "unknown": {
+      "2b3": "時空狹縫 歐米茄 德爾塔幻境1",
+      "2b4": "時空狹縫 歐米茄 德爾塔幻境2",
+      "2b5": "時空狹縫 歐米茄 德爾塔幻境3",
+      "2b6": "時空狹縫 歐米茄 德爾塔幻境4",
+      "2b7": "絕境戰 歐米茄 德爾塔幻境1",
+      "2b8": "絕境戰 歐米茄 德爾塔幻境2",
+      "2b9": "絕境戰 歐米茄 德爾塔幻境3",
+      "2ba": "絕境戰 歐米茄 德爾塔幻境4"
+    }
+  },
+  "skill": {
+    "alias": {
+      "鼓舞激勵之策": "鼓舞",
+      "士氣高揚之策": "士氣高揚",
+      "不屈不撓之策": "不屈不撓",
+      "深謀遠慮之策": "深謀遠慮",
+      "必殺劍·曉天": "曉天",
+      "必殺劍·九天": "九天",
+      "必殺劍·星眼": "星眼",
+      "必殺劍·紅蓮": "紅蓮",
+      "必殺劍·震天": "震天",
+      "賢者的敘事謠": "賢者謠",
+      "魔人的安魂曲": "魔人曲",
+      "軍神的讚美歌": "軍神歌",
+      "放浪神的小步舞曲": "放浪神"
+    }
+  },
+  "_author": "TC Translation"
+}
