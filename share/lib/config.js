@@ -5,7 +5,7 @@ const CODENAME = 'Audite Nostalgia'
 const DESCRIPTION = 'その旋律は紡がれ受け継がれていく'
 
 const CONFIG_DEFAULT = {
-  lang: 'ko',
+  lang: 'zh-tw',
   style: {
     // body
     'resize-factor': 1,
